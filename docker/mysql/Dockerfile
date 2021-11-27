@@ -1,4 +1,4 @@
-FROM mysql:8.0
+FROM --platform=linux/amd64 mysql:8.0
 
 ENV TZ=UTC \
   MYSQL_DATABASE=laravel_local \
